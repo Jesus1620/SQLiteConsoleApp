@@ -54,10 +54,10 @@ dotnet run
 ## Estructura del Proyecto
 El proyecto contiene los siguientes directorios y archivos clave:
 
-/src: Código fuente de la aplicación.
-Dockerfile: Archivo de configuración para construir la imagen de Docker.
-docker-compose.yml: Archivo para orquestar la ejecución de contenedores.
-README.md: Documentación del proyecto.
+- /src: Código fuente de la aplicación.
+- Dockerfile: Archivo de configuración para construir la imagen de Docker.
+- docker-compose.yml: Archivo para orquestar la ejecución de contenedores.
+- README.md: Documentación del proyecto.
 
 
 
