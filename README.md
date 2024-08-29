@@ -22,29 +22,36 @@ Primero, clona el repositorio a tu máquina local:
 ## Clonar el Repositorio
 Primero, clona el repositorio a tu máquina local:
 
-```bash
+```
 git clone https://github.com/Jesús1620/SQLiteConsoleApp.git
 cd SQLiteConsoleApp
+```
 
 
-Instalación y Ejecución
+
+## Instalación y Ejecución
 Usando Docker
 Construye la imagen de Docker:
+```
 docker build -t sqliteconsoleapp .
-
-
-Ejecuta la aplicación usando Docker Compose:
+```
+## Ejecuta la aplicación usando Docker Compose:
+```
 docker-compose up
-
-Sin Docker
+```
+## Sin Docker
 Restaura las dependencias y construye la aplicación:
+```
 dotnet restore
 dotnet build
+```
 
-Ejecuta la aplicación:
+## Ejecuta la aplicación:
+```
 dotnet run
+```
 
-Estructura del Proyecto
+## Estructura del Proyecto
 El proyecto contiene los siguientes directorios y archivos clave:
 
 /src: Código fuente de la aplicación.
